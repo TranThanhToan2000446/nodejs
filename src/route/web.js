@@ -16,7 +16,7 @@ const initWebRoute = (app) =>{
 
     router.get('/list-user/:trang',userController.listUser);
     router.get('/login',userController.login);
-    router.get('/create-new-user',userController.newUser);
+    router.get('/create-new-user',userController.createUser);
     router.get('/detail-user/:username',userController.detailUser);
 
     // router.get('/listUser',userController.getAllUser);

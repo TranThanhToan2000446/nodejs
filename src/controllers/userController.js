@@ -10,7 +10,7 @@ const listUser = (req,res) =>{
 const login = (req,res) =>{
     return res.render('index',{data:{title:'Đăng nhập',page:'login'} });
 }
-const newUser = (req,res) =>{
+const createUser = (req,res) =>{
     return res.render('index',{data:{title:'Tạo tài khoản',page:'newUser'} });
 }
 const detailUser = (req,res) =>{
@@ -20,6 +20,6 @@ const detailUser = (req,res) =>{
 export default {
     listUser,
     login,
-    newUser,
+    createUser,
     detailUser
 }
